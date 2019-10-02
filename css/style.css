@@ -1,0 +1,25 @@
+/* extra styles by: michelle currier */
+
+@font-face {
+  font-family: "Alfred Drake";
+  src: url('AlfredDrake.ttf');
+  font-weight: bold;
+}
+@font-face {
+    font-family: "Duvall";
+    src: url("./fonts/Duvall.eot"); /* IE9 Compat Modes */
+    src: url("./fonts/Duvall.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+      url("./fonts/Duvall.otf") format("opentype"), /* Open Type Font */
+      url("./fonts/Duvall.svg") format("svg"), /* Legacy iOS */
+      url("./fonts/Duvall.woff") format("woff"), /* Modern Browsers */
+      url("./fonts/Duvall.woff2") format("woff2"); /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+  }
+
+h1, h2, h3, h4 {
+    font-family: "Alfred Drake";
+}
+h5, h6, p, body {
+    font-family: "Duvall";
+}
